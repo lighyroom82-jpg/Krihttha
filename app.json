@@ -1,0 +1,21 @@
+{
+    "name": "zanta-mini",
+    "description": "mini web bot",
+    "logo": "https://files.catbox.moe/v5k6lz.jpg",
+    "repository": "https://github.com/lighyroom82-jpg/Zantaxmd-v1-mimi",
+    
+    "keywords": [
+    "zanta-xmd","zanta-xd"
+    ],
+    
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
